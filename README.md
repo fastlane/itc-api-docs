@@ -42,6 +42,10 @@ List all your apps with the most basic app metadata:
 
     https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/manageyourapps/summary
 
+##### Available parameters
+
+None
+
 **[Example response](examples/summary.md)**
 
 
