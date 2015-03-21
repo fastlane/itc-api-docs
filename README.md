@@ -42,8 +42,8 @@ For all requests listed below, you'll need a valid cookie which you have to pass
 
 ##### Available parameters
 
-- *theAccountName*: Your Apple ID
-- *theAccountPW*: Your password
+- **theAccountName**: Your Apple ID
+- **theAccountPW**: Your password
 
 ##### [Example response](examples/login.md)
 
