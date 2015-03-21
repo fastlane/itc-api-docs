@@ -34,16 +34,24 @@ This document describes the iTunes Connect JSON API and how to use it.
 
 To test your requests, I recommend the awesome [Paw](https://luckymarmot.com/paw) HTTP Client for Mac OS.
 
+### Cookies
+
+All requests (except for the login action) require you to pass cookies. If you're using a HTTP client, you'll get this for free. 
+
+# API
+
 ## Login
 
 For all requests listed below, you'll need a valid cookie which you have to pass for each request.
 
+**POST**
+
     https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/wo/0.0.1.11.3.15.2.1.1.3.1.1
 
-##### Available parameters
+#### Available parameters
 
-- **theAccountName**: Your Apple ID
-- **theAccountPW**: Your password
+- **theAccountName**: Your Apple ID *POST*
+- **theAccountPW**: Your password *POST*
 
 ##### [Example response](examples/login.md)
 
@@ -51,17 +59,35 @@ For all requests listed below, you'll need a valid cookie which you have to pass
 
 List all your apps with the most basic app metadata:
 
+**GET**
+
     https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/manageyourapps/summary
 
-##### Available parameters
+#### Available parameters
 
 None
 
 ##### [Example response](examples/summary.md)
 
-
 ## Fetch App Information
+
+Receive all metadata information available for this app, including app description, screenshots, review status and much more.
+
+**GET**
+
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/detail/[app_id]
+
+#### Available parameters
+
+- **App ID**: The ID of your app (e.g. 903020700) *GET*
+
+##### [Example response](examples/details.md)
 
 ## Update App Information
 
 ## Create a new App Version
+
+
+# Thanks
+
+Special thanks to [this GitHub Issue](https://github.com/kovpas/itc.cli/issues/38) in particular @spidfire

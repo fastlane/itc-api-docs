@@ -1,0 +1,133 @@
+#### [Back To Overview](https://github.com/fastlane/itc-api-docs/)
+
+# Fetch App Information
+
+```json
+{
+  "data":{
+    "sectionErrorKeys":[
+
+    ],
+    "sectionInfoKeys":[
+
+    ],
+    "sectionWarningKeys":[
+
+    ],
+    "bundleId":{
+      "value":"com.krausefx.bundle_id",
+      "isEditable":false,
+      "isRequired":true,
+      "errorKeys":null
+    },
+    "bundleIdSuffix":{
+      "value":null,
+      "isEditable":false,
+      "isRequired":false,
+      "errorKeys":null
+    },
+    "vendorId":{
+      "value":"99",
+      "isEditable":false,
+      "isRequired":true,
+      "errorKeys":null
+    },
+    "adamId":"903020700",
+    "appType":"iOS App",
+    "name":{
+      "value":"Awesome App Name",
+      "isEditable":true,
+      "isRequired":true,
+      "errorKeys":null
+    },
+    "liveVersion":{
+      "id":"811407700",
+      "version":"0.9.13",
+      "state":"readyForSale",
+      "stateKey":"readyForSale",
+      "stateGroup":"readyForSale",
+      "largeAppIcon":{
+        "assetToken":"Purple3/...png",
+        "thumbnailAssetToken":"Purple1/v4/87/49....png",
+        "url":"https://is4-ssl.mzstatic.com/...png",
+        "thumbNailUrl":"https://is4-ssl.mzstatic.com/...png",
+        "sortOrder":null,
+        "originalFileName":"99.png"
+      },
+      "supportedHardware":null
+    },
+    "inFlightVersion":{
+      "id":"812045950",
+      "version":"0.9.14",
+      "state":"prepareForUpload",
+      "stateKey":"prepareForUpload",
+      "stateGroup":"preRelease",
+      "largeAppIcon":{
+        "assetToken":"Purple1/v4/54...png",
+        "thumbnailAssetToken":"Purple1/v4/...png",
+        "url":"https://is3-ssl.mzstatic.com/image...png",
+        "thumbNailUrl":"https://is4-ssl.mzstatic.com/...png",
+        "sortOrder":null,
+        "originalFileName":"99.png"
+      },
+      "supportedHardware":null
+    },
+    "primaryLanguage":{
+      "value":"German",
+      "isEditable":true,
+      "isRequired":true,
+      "errorKeys":null
+    },
+    "canAddVersion":false,
+    "appPageSectionLinks":[
+      {
+        "link":"/WebObjects/iTunesConnect.woa/ra/ng/app/903020700/pre/builds",
+        "text":"ITC.apps.section.PreRelease"
+      },
+      {
+        "link":"/WebObjects/iTunesConnect.woa/wa/LCAppPage/viewPricing?adamId=903020700",
+        "text":"ITC.apps.section.Pricing"
+      },
+      {
+        "link":"/WebObjects/iTunesConnect.woa/wa/LCAddOnPage/addOnSearchPage?adamId=903020700",
+        "text":"ITC.apps.section.InAppPurchases"
+      },
+      {
+        "link":"/WebObjects/iTunesConnect.woa/wa/LCAppPage/viewGameCenter?adamId=903020700",
+        "text":"ITC.apps.section.GameCenter"
+      },
+      {
+        "link":"/WebObjects/iTunesConnect.woa/wa/LCAppPage/viewCustomerReviews?adamId=903020700&versionString=latest",
+        "text":"ITC.apps.versionLinks.CustomerReviews"
+      },
+      {
+        "link":"/WebObjects/iTunesConnect.woa/wa/LCAppPage/viewNewsstand?adamId=903020700&versionString=latest",
+        "text":"ITC.apps.section.Newsstand"
+      }
+    ],
+    "appPageMoreLinks":[
+      {
+        "link":"https://itunes.apple.com/us/app/app-name/id903020700?ls=1&mt=8",
+        "text":"ITC.apps.versionLinks.AppStore"
+      }
+    ],
+    "appPageActionLinks":[
+      {
+        "link":"/WebObjects/iTunesConnect.woa/wa/LCAppPage/transferApp?adamId=903020700",
+        "text":"ITC.apps.section.TransferApp"
+      }
+    ],
+    "appTransferState":null,
+    "isDeleted":false,
+    "bundleSummaryInfo":null
+  },
+  "messages":{
+    "error":null,
+    "info":null,
+    "warn":null
+  },
+  "statusCode":"SUCCESS"
+}
+```
+
+#### [Back To Overview](https://github.com/fastlane/itc-api-docs/)
