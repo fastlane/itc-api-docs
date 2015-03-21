@@ -36,6 +36,17 @@ To test your requests, I recommend the awesome [Paw](https://luckymarmot.com/paw
 
 ## Login
 
+For all requests listed below, you'll need a valid cookie which you have to pass for each request.
+
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/wo/0.0.1.11.3.15.2.1.1.3.1.1
+
+##### Available parameters
+
+- *theAccountName*: Your Apple ID
+- *theAccountPW*: Your password
+
+##### [Example response](examples/login.md)
+
 ## List Apps
 
 List all your apps with the most basic app metadata:
@@ -46,7 +57,7 @@ List all your apps with the most basic app metadata:
 
 None
 
-**[Example response](examples/summary.md)**
+##### [Example response](examples/summary.md)
 
 
 ## Fetch App Information
