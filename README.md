@@ -100,6 +100,18 @@ Create a new version of your existing app
 
 ##### [Example response](examples/new_version.md)
 
+## Promo codes
+
+Receive HTML page with information about available promocodes for this app.
+
+**GET**
+
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/wa/LCAppPage/viewPromoCodes?adamId=[app_id]&versionString=latest
+
+#### Available parameters
+
+- **App ID** (GET): The ID of your app (e.g. 903020700)
+
 # Thanks
 
 Special thanks to [this GitHub Issue](https://github.com/kovpas/itc.cli/issues/38) in particular @spidfire
