@@ -87,6 +87,18 @@ Receive all metadata information available for this app, including app descripti
 
 ## Create a new App Version
 
+Create a new version of your existing app
+
+**POST**
+
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/version/create/[app_id]
+
+#### Available parameters
+
+- **App ID**: The ID of your app (e.g. 903020700) *GET*
+- **JSON**: `{"version": "2.0"}`
+
+##### [Example response](examples/new_version.md)
 
 # Thanks
 
