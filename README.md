@@ -50,8 +50,8 @@ For all requests listed below, you'll need a valid cookie which you have to pass
 
 #### Available parameters
 
-- **theAccountName**: Your Apple ID *POST*
-- **theAccountPW**: Your password *POST*
+- **theAccountName** (POST): Your Apple ID
+- **theAccountPW** (POST): Your password
 
 ##### [Example response](examples/login.md)
 
@@ -79,7 +79,7 @@ Receive all metadata information available for this app, including app descripti
 
 #### Available parameters
 
-- **App ID**: The ID of your app (e.g. 903020700) *GET*
+- **App ID** (GET): The ID of your app (e.g. 903020700)
 
 ##### [Example response](examples/details.md)
 
@@ -95,8 +95,8 @@ Create a new version of your existing app
 
 #### Available parameters
 
-- **App ID**: The ID of your app (e.g. 903020700) *GET*
-- **JSON**: `{"version": "2.0"}`
+- **App ID** (GET): The ID of your app (e.g. 903020700) *GET*
+- **JSON** (POST): `{"version": "2.0"}`
 
 ##### [Example response](examples/new_version.md)
 
