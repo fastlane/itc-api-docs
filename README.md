@@ -25,9 +25,6 @@ itc-api-docs
 
 ###### The unofficial documentation of the iTunes Connect JSON API
 
-Get in contact with the developer on Twitter: [@KrauseFx](https://twitter.com/KrauseFx)
-
-
 # Introduction
 
 This document describes the iTunes Connect JSON API and how to use it. The API is used by the AngularJS based iTunes Connect front-end to update app metadata. It is public once you have a valid session.
