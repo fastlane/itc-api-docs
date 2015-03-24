@@ -91,7 +91,7 @@ Usually you don't need this parameter.
 
 You can update the app metadata using this request. It's not very easy to build the request, as there are many parameters required. 
 
-To upload screenshots it's recommended to use the iTMSTransporter, which is also used by [deliver](https://github.com/KrauseFx/deliver).
+To upload screenshots it's recommended to use the `iTMSTransporter`, which is also used by [deliver](https://github.com/KrauseFx/deliver).
 
 **POST**
 
@@ -117,6 +117,10 @@ Create a new version of your existing app.
 - **JSON** (POST): `{"version": "2.0"}`
 
 ##### [Example response](examples/new_version.md)
+
+## Upload a new binary
+
+Uploading a new binary is only possible using the `iTMSTransporter`. You can take a look at [deliver](https://github.com/KrauseFx/deliver) how this is implemented. 
 
 # Thanks
 
