@@ -2,6 +2,8 @@
 
 # Update App Information Response
 
+You'll probably never need this, as you can always just use the [Fetch App Information Request](https://github.com/fastlane/itc-api-docs#fetch-app-information)
+
 ```json
 {
   "data":{
