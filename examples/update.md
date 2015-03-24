@@ -1,6 +1,6 @@
 #### [Back To Overview](https://github.com/fastlane/itc-api-docs/)
 
-# Update App Information
+# Update App Information Response
 
 ```json
 {

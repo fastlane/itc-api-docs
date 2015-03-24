@@ -977,4 +977,6 @@ The below listed data is sent via a POST request. You'll have to make sure the f
 }
 ```
 
+**[Example Response](examples/update.md)**
+
 #### [Back To Overview](https://github.com/fastlane/itc-api-docs/)
