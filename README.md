@@ -38,7 +38,15 @@ To test your requests, I recommend the awesome [Paw](https://luckymarmot.com/paw
 
 All requests (except for the login action) require you to pass cookies. If you're using a HTTP client, you'll get this for free. 
 
-# API
+# Testing/Using the API
+
+Download the pre-filled [PAW file](https://github.com/fastlane/itc-api-docs/blob/master/assets/PublicPawFile.paw?raw=1) and open it with [Paw](https://luckymarmot.com/paw).
+
+Next, you can enter your iTunes Connect credentials in the `Default Domain` settings: ![assets/LoginInformation.png](assets/LoginInformation.png)
+
+Switch back to the list of requests on the left side and select `Login`. Click `CMD` + `R` to send the request to login.
+
+# API Docs
 
 ## Login
 
