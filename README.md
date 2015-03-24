@@ -75,7 +75,7 @@ Receive all metadata information available for this app, including app descripti
 
 **GET**
 
-    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/detail/[app_id]
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/version/[app_id]
 
 **Available parameters**
 
