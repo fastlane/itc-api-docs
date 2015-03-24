@@ -63,10 +63,6 @@ List all your apps with the most basic app metadata:
 
     https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/manageyourapps/summary
 
-**Available parameters**
-
-None
-
 ##### [Example response](examples/summary.md)
 
 ## Fetch App Information
@@ -80,10 +76,22 @@ Receive all metadata information available for this app, including app descripti
 **Available parameters**
 
 - **App ID** (GET): The ID of your app (e.g. 903020700)
+- **v** (GET): Defines if the app metadata of the version currently available in the App Store or the new version should be used.
+
+Example:
+
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/version/[app_id]?v=live
+
+This will fetch the app metadata from the version, that is currently available in the App Store. If you don't define this parameter, you receive the metadata from the version that is currently being edited.
+Usually you don't need this paramter.
 
 ##### [Example response](examples/details.md)
 
 ## Update App Information
+
+You can update the app metadata using this request. It's not very easy to build the request, as there are many parameters required. 
+
+To upload screenshots it's recommended to use the iTMSTransporter, which is also used by [deliver](https://github.com/KrauseFx/deliver).
 
 **POST**
 
@@ -97,7 +105,7 @@ Receive all metadata information available for this app, including app descripti
 
 ## Create a new App Version
 
-Create a new version of your existing app
+Create a new version of your existing app.
 
 **POST**
 
@@ -112,4 +120,4 @@ Create a new version of your existing app
 
 # Thanks
 
-Special thanks to [this GitHub Issue](https://github.com/kovpas/itc.cli/issues/38) in particular @spidfire
+Special thanks to [this GitHub Issue](https://github.com/kovpas/itc.cli/issues/38) in particular @spidfire and [Christian Beer](https://twitter.com/christian_beer).
