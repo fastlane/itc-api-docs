@@ -85,6 +85,16 @@ Receive all metadata information available for this app, including app descripti
 
 ## Update App Information
 
+**POST**
+
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/version/save/[app_id]
+
+**Available parameters**
+
+[See example POST Request](examples/update_request.md) (quite complex)
+
+##### [Example response](examples/update.md)
+
 ## Create a new App Version
 
 Create a new version of your existing app
