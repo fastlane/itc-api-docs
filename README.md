@@ -30,7 +30,7 @@ Get in contact with the developer on Twitter: [@KrauseFx](https://twitter.com/Kr
 
 # Introduction
 
-This document describes the iTunes Connect JSON API and how to use it.
+This document describes the iTunes Connect JSON API and how to use it. The API is used by the AngularJS based iTunes Connect front-end to update app metadata. It is public once you have a valid session.
 
 To test your requests, I recommend the awesome [Paw](https://luckymarmot.com/paw) HTTP Client for Mac OS.
 
@@ -78,12 +78,12 @@ Receive all metadata information available for this app, including app descripti
 - **App ID** (GET): The ID of your app (e.g. 903020700)
 - **v** (GET): Defines if the app metadata of the version currently available in the App Store or the new version should be used.
 
-Example:
+**Example:**
 
     https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/version/[app_id]?v=live
 
 This will fetch the app metadata from the version, that is currently available in the App Store. If you don't define this parameter, you receive the metadata from the version that is currently being edited.
-Usually you don't need this paramter.
+Usually you don't need this parameter.
 
 ##### [Example response](examples/details.md)
 
