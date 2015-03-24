@@ -39,7 +39,7 @@ Set-Cookie: woinst=3243; version="1"; path=/; secure; HttpOnly
 }
 ```
 
-If you can't create a new version for this app (e.g. if the version was already created), the response looks like this:
+#### If you can't create a new version for this app (e.g. if the version was already created), the response looks like this:
 
 ```
 HTTP/1.1 403 Forbidden
