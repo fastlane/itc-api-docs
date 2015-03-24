@@ -48,7 +48,7 @@ For all requests listed below, you'll need a valid cookie which you have to pass
 
     https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/wo/0.0.1.11.3.15.2.1.1.3.1.1
 
-#### Available parameters
+**Available parameters**
 
 - **theAccountName** (POST): Your Apple ID
 - **theAccountPW** (POST): Your password
@@ -63,7 +63,7 @@ List all your apps with the most basic app metadata:
 
     https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/manageyourapps/summary
 
-#### Available parameters
+**Available parameters**
 
 None
 
@@ -77,7 +77,7 @@ Receive all metadata information available for this app, including app descripti
 
     https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/detail/[app_id]
 
-#### Available parameters
+**Available parameters**
 
 - **App ID** (GET): The ID of your app (e.g. 903020700)
 
@@ -93,7 +93,7 @@ Create a new version of your existing app
 
     https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/version/create/[app_id]
 
-#### Available parameters
+**Available parameters**
 
 - **App ID** (GET): The ID of your app (e.g. 903020700) *GET*
 - **JSON** (POST): `{"version": "2.0"}`
