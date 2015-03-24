@@ -40,7 +40,7 @@ All requests (except for the login action) require you to pass cookies. If you'r
 
 # Testing/Using the API
 
-Download the pre-filled [PAW file](https://github.com/fastlane/itc-api-docs/blob/master/assets/PublicPawFile.zip?raw=1) and open it with [Paw](https://luckymarmot.com/paw).
+Download the pre-filled [PAW file](https://github.com/fastlane/itc-api-docs/blob/master/assets/iTunesConnectAPI.zip?raw=1) and open it with [Paw](https://luckymarmot.com/paw).
 
 Next, you can enter your iTunes Connect credentials in the `Default Domain` settings: ![assets/LoginInformation.png](assets/LoginInformation.png)
 
