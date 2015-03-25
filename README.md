@@ -62,7 +62,7 @@ For all requests listed below, you'll need a valid cookie which you have to pass
 
 ##### [Example response](examples/login.md)
 
-The response HTTP status codes confusing: 
+The response HTTP status codes are confusing: 
 
 - `302 Moved Temporarily`: Login successful
 - `200 OK`: Login unsucessful, wrong credentials
