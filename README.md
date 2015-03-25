@@ -62,7 +62,7 @@ For all requests listed below, you'll need a valid cookie which you have to pass
 
 ##### [Example response](examples/login.md)
 
-The response HTTP status codes are a bit confusing: 
+The response HTTP status codes confusing: 
 
 - `302 Moved Temporarily`: Login successful
 - `200 OK`: Login unsucessful, wrong credentials
@@ -129,6 +129,27 @@ Create a new version of your existing app.
 - **JSON** (POST): `{"version": "2.0"}`
 
 ##### [Example response](examples/new_version.md)
+
+## Create a new App
+
+Creates a new app on iTunes Connect
+
+**POST**
+
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/create/?appType=ios
+
+**Available parameters**
+
+[See example POST Request](examples/create_request.md)
+
+The response HTTP status codes are not correctly used:
+
+- `200 OK`: An error occured, check the response JSON to read the error message
+- `200 OK`: Successfully created a new app
+
+You have to read the `response["data"]["sectionErrorKeys"]` to be sure the request was successful.
+
+##### [Example response](examples/create.md)
 
 ## Upload a new binary
 
