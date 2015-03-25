@@ -67,6 +67,8 @@ The response HTTP status codes confusing:
 - `302 Moved Temporarily`: Login successful
 - `200 OK`: Login unsucessful, wrong credentials
 
+If you get `200` and your credentials are correct, try deleting the cookies.
+
 ## List Apps
 
 List all your apps with the most basic app metadata:
@@ -76,6 +78,8 @@ List all your apps with the most basic app metadata:
     https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/manageyourapps/summary
 
 ##### [Example response](examples/summary.md)
+
+If you get `401`, try deleting the cookies and sending a new login request.
 
 ## Fetch App Information
 
