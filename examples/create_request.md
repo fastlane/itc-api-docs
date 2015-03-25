@@ -9,18 +9,18 @@ The below listed data is sent via a POST request. You'll have to make sure the f
 ```json
 {
     "versionString": {
-        "value": "-0.1"
+        "value": "1.0"
     },
     "newApp": {
         "bundleId": {
-            "value": "at.felixkrause.bikemapLion"
+            "value": "com.krausefx.app"
         },
         "vendorId": {
-            "value": "1231292"
+            "value": "[SKU Number]"
         },
         "appType": "iOS App",
         "name": {
-            "value": "Erlesenasdfasdf"
+            "value": "[Your App Nmae]"
         },
         "primaryLanguage": {
             "value": "English_Australian"
