@@ -41,7 +41,7 @@ Download the pre-filled [PAW file](https://github.com/fastlane/itc-api-docs/blob
 
 Next, you can enter your iTunes Connect credentials in the `Default Domain` settings: ![assets/LoginInformation.png](assets/LoginInformation.png)
 
-**The `app_id` is the ID of your app.** You only need to fill that in, if you want to fetch the metadata for a specific app.
+**The `app_id` is the ID of your app.** You only need to fill that in, if you want to fetch the metadata for one of your apps.
 
 Switch back to the list of requests on the left side and select `Login`. Click `CMD` + `R` to send the request to login.
 
