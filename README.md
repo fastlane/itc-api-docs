@@ -25,13 +25,13 @@ itc-api-docs
 
 ###### The unofficial documentation of the iTunes Connect JSON API
 
-[fastlane](https://github.com/KrauseFx/fastlane) and some of the fastlane tools make use of the iTunes Connect API. Using this git repository it's easy to keep the documentation up to date.
-
 # Introduction
 
 This document describes the iTunes Connect JSON API and how to use it. The API is used by the [AngularJS](https://angularjs.org/) based iTunes Connect front-end to update app metadata. It is public once you have a valid session.
 
 To test your requests, I recommend the awesome [Paw](https://luckymarmot.com/paw) HTTP Client for Mac OS.
+
+[fastlane](https://github.com/KrauseFx/fastlane) and some of the fastlane tools make use of the iTunes Connect API. Using this git repository it's easy to keep the documentation up to date.
 
 ### Cookies
 
