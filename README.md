@@ -161,6 +161,12 @@ You have to read the `response["data"]["sectionErrorKeys"]` to be sure the reque
 
 Uploading a new binary is only possible using the `iTMSTransporter`. You can take a look at [deliver](https://github.com/KrauseFx/deliver) how this is implemented. 
 
+# fastlane
+
+This documentation is part of the [fastlane](https://fastlane.tools) toolchain. 
+
+##### [Like what we're doing? Be the first to know about updates and new fastlane tools](https://tinyletter.com/krausefx)
+
 # Thanks
 
 Special thanks to [this GitHub Issue](https://github.com/kovpas/itc.cli/issues/38) in particular @spidfire and [Christian Beer](https://twitter.com/christian_beer).
