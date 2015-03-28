@@ -161,6 +161,16 @@ You have to read the `response["data"]["sectionErrorKeys"]` to be sure the reque
 
 Uploading a new binary is only possible using the `iTMSTransporter`. You can take a look at [deliver](https://github.com/KrauseFx/deliver) how this is implemented. 
 
+## List uploaded builds
+
+This request will show information about all uploaded builds:
+
+**GET**
+
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/[app_id]/trains/
+
+##### [Example response](examples/list_builds.md)
+
 # Thanks
 
 Special thanks to [this GitHub Issue](https://github.com/kovpas/itc.cli/issues/38) in particular @spidfire and [Christian Beer](https://twitter.com/christian_beer).
