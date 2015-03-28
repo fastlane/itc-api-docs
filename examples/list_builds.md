@@ -103,6 +103,12 @@
       }
     ],
     "processingBuilds":[
+        {
+            "uploadDate": 1427562868000, 
+            "buildVersion": null, 
+            "trainVersion": null, 
+            "state":"ITC.apps.betaProcessingStatus.Uploaded"
+        }
     ],
     "currentTestingApps":4,
     "maxTestingApps":10,
