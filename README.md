@@ -171,6 +171,12 @@ This request will show information about all uploaded builds:
 
 ##### [Example response](examples/list_builds.md)
 
+# fastlane
+
+This documentation is part of the [fastlane](https://fastlane.tools) toolchain. 
+
+##### [Like what we're doing? Be the first to know about updates and new fastlane tools](https://tinyletter.com/krausefx)
+
 # Thanks
 
 Special thanks to [this GitHub Issue](https://github.com/kovpas/itc.cli/issues/38) in particular @spidfire and [Christian Beer](https://twitter.com/christian_beer).
