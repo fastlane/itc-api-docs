@@ -171,6 +171,20 @@ This request will show information about all uploaded builds:
 
 ##### [Example response](examples/list_builds.md)
 
+## Get/Set build information 
+
+Based on the list command, you can also get and set information about a certain build, like the release notes, contact email:
+
+**GET/POST**
+
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/[app_id]/trains/[train]/builds/[build]/testInformation
+
+To set information, use the same URL and provide everything contained inside `data` as a JSON value in the request.
+
+##### [Example response](examples/get_build.md)
+
+
+
 # fastlane
 
 This documentation is part of the [fastlane](https://fastlane.tools) toolchain. 
