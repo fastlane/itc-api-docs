@@ -189,11 +189,26 @@ To set information, use the same URL and provide everything contained inside `da
 
 You can receive more details for a specific build and its binary
 
+**GET**
+
     https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/[app_id]/trains/[train]/builds/[build]/details
+
+The `[train]` value is the version number (e.g. `2.0`) while the `[build]` value is the build number.
 
 ##### [Example response](examples/binary_details.md)
 
+## Get List of testers of a build
+
+Receive a list of all testers who have access to the given build.
+
+**GET**
+
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/[app_id]/trains/[train]/builds/[build]/testers
+
 The `[train]` value is the version number (e.g. `2.0`) while the `[build]` value is the build number.
+
+##### [Example response](examples/testers.md)
+
 
 # fastlane
 
