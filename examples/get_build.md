@@ -1,6 +1,6 @@
 #### [Back To Overview](https://github.com/fastlane/itc-api-docs/)
 
-# Get Build Details
+# Build Test Information
 
     https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/[app_id]/trains/[train]/builds/[build]/testInformation
 

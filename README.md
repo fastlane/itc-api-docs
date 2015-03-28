@@ -171,7 +171,7 @@ This request will show information about all uploaded builds:
 
 ##### [Example response](examples/list_builds.md)
 
-## Get/Set build information 
+## Get/Set build test information 
 
 Based on the list command, you can also get and set information about a certain build, like the release notes, contact email:
 
@@ -179,11 +179,21 @@ Based on the list command, you can also get and set information about a certain 
 
     https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/[app_id]/trains/[train]/builds/[build]/testInformation
 
+The `[train]` value is the version number (e.g. `2.0`) while the `[build]` value is the build number.
+
 To set information, use the same URL and provide everything contained inside `data` as a JSON value in the request.
 
 ##### [Example response](examples/get_build.md)
 
+## Get Binary details
 
+You can receive more details for a specific build and its binary
+
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/[app_id]/trains/[train]/builds/[build]/details
+
+##### [Example response](examples/binary_details.md)
+
+The `[train]` value is the version number (e.g. `2.0`) while the `[build]` value is the build number.
 
 # fastlane
 
