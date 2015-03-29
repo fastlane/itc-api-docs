@@ -157,11 +157,11 @@ You have to read the `response["data"]["sectionErrorKeys"]` to be sure the reque
 
 ##### [Example response](examples/create.md)
 
-## Upload a new binary
+## Upload a new Binary
 
 Uploading a new binary is only possible using the `iTMSTransporter`. You can take a look at [deliver](https://github.com/KrauseFx/deliver) how this is implemented. 
 
-## List uploaded builds
+## List uploaded Builds
 
 This request will show information about all uploaded builds:
 
@@ -171,7 +171,7 @@ This request will show information about all uploaded builds:
 
 ##### [Example response](examples/list_builds.md)
 
-## Get/Set build test information 
+## Get/Set Build Test Information 
 
 Based on the list command, you can also get and set information about a certain build, like the release notes, contact email:
 
@@ -185,7 +185,7 @@ To set information, use the same URL and provide everything contained inside `da
 
 ##### [Example response](examples/get_build.md)
 
-## Get Binary details
+## Get Binary Details
 
 You can receive more details for a specific build and its binary
 
@@ -197,7 +197,7 @@ The `[train]` value is the version number (e.g. `2.0`) while the `[build]` value
 
 ##### [Example response](examples/binary_details.md)
 
-## Get List of testers of a build
+## Get List of Testers of a Build
 
 Receive a list of all testers who have access to the given build.
 
