@@ -209,6 +209,18 @@ The `[train]` value is the version number (e.g. `2.0`) while the `[build]` value
 
 ##### [Example response](examples/testers.md)
 
+## Submit for Review
+
+Submit a new version for Review:
+
+**POST**
+
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/[app_id]/version/submit/complete
+
+[See example POST Request](examples/submit_request.md)
+    
+#### [Example response](examples/submit.md)
+
 ## Cancel "Waiting for Review"
 
 Reject an app that is waiting for review.
