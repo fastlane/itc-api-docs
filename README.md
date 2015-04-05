@@ -213,7 +213,7 @@ The `[train]` value is the version number (e.g. `2.0`) while the `[build]` value
 
 Reject an app that is waiting for review.
 
-** POST **
+**POST**
 
     https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/version/reject/[app_id]
 
