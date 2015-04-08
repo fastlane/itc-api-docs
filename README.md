@@ -67,7 +67,7 @@ For all requests listed below, you'll need a valid cookie which you have to pass
 The response HTTP status codes are confusing: 
 
 - `302 Moved Temporarily`: Login successful
-- `200 OK`: Login unsucessful, wrong credentials
+- `200 OK`: Login unsuccessful, wrong credentials
 
 If you get `200` and your credentials are correct, try deleting the cookies.
 
@@ -104,7 +104,7 @@ This will fetch the app metadata from the version, that is currently available i
 Usually you don't need this parameter.
 
 ##### [Example response](examples/details.md)
-
+co
 ## Update App Information
 
 You can update the app metadata using this request. It's not very easy to build the request, as there are many parameters required. 
@@ -150,7 +150,7 @@ Creates a new app on iTunes Connect
 
 The response HTTP status codes are not correctly used:
 
-- `200 OK`: An error occured, check the response JSON to read the error message
+- `200 OK`: An error occurred, check the response JSON to read the error message
 - `200 OK`: Successfully created a new app
 
 You have to read the `response["data"]["sectionErrorKeys"]` to be sure the request was successful.
