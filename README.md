@@ -55,7 +55,7 @@ For all requests listed below, you'll need a valid cookie which you have to pass
 
 **POST**
 
-    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/wo/0.0.1.11.3.15.2.1.1.3.1.1
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/wo/7.0.1.13.3.15.2.1.1.3.1.1
 
 **Available parameters**
 
