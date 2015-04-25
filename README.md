@@ -239,4 +239,4 @@ This documentation is part of the [fastlane](https://fastlane.tools) toolchain.
 
 # Thanks
 
-Special thanks to [this GitHub Issue](https://github.com/kovpas/itc.cli/issues/38) in particular @spidfire and [Christian Beer](https://twitter.com/christian_beer).
+Special thanks to [this GitHub Issue](https://github.com/kovpas/itc.cli/issues/38) in particular [@spidfire](https://github.com/spidfire) and [Christian Beer](https://twitter.com/christian_beer).
