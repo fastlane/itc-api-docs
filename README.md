@@ -57,6 +57,8 @@ For all requests listed below, you'll need a valid cookie which you have to pass
 
     https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/wo/7.0.1.13.3.15.2.1.1.3.1.1
 
+The login URL might change from time to time. I'm working on a better solution.
+
 **Available parameters**
 
 - **theAccountName** (POST): Your Apple ID
