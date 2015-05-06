@@ -209,6 +209,39 @@ The `[train]` value is the version number (e.g. `2.0`) while the `[build]` value
 
 ##### [Example response](examples/testers.md)
 
+## Register new external beta tester
+
+Add a new external beta tester for Apple TestFlight
+
+**POST**
+
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/users/pre/create
+
+**Available parameters**
+
+Provide the following JSON data in your *POST* reqest:
+
+```json
+{
+  "testers": [{
+    "emailAddress": {
+      "value": "felix@krausefx.com",
+      "errorKeys": []
+    },
+    "firstName": {
+      "value": "Felix"
+    },
+    "lastName": {
+      "value": "Krause"
+    },
+    "testing": {
+      "value": true
+    },
+    "groups": []
+  }]
+}
+```
+
 ## Submit for Review
 
 Submit a new version for Review:
