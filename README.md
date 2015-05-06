@@ -106,7 +106,7 @@ This will fetch the app metadata from the version, that is currently available i
 Usually you don't need this parameter.
 
 ##### [Example response](examples/details.md)
-co
+
 ## Update App Information
 
 You can update the app metadata using this request. It's not very easy to build the request, as there are many parameters required. 
