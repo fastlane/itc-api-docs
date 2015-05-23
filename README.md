@@ -55,9 +55,18 @@ For all requests listed below, you'll need a valid cookie which you have to pass
 
 **POST**
 
-    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/wo/7.0.1.13.3.15.2.1.1.3.1.1
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/wo/0.0.1.13.3.13.3.2.1.1.3.1.1
 
-The login URL might change from time to time. I'm working on a better solution.
+The login URL changes from time to time. To get the latest one, check out [login_url.rb](/login_url.rb).
+
+```ruby
+require 'open-uri'
+host = "https://itunesconnect.apple.com"
+url = host + open(host).read.match(/action="(\/WebObjects\/iTunesConnect.woa\/wo\/.*)"/)[1]
+puts url
+```
+
+Call `ruby login_url.rb` to get the latest URL printed out.
 
 **Available parameters**
 
