@@ -275,6 +275,17 @@ Reject an app that is waiting for review.
 
 The response only contains the general app information - no additional information.
 
+## Resolution Center - Rejection Reasons
+
+Receive the app review notes with the reason why your app version got rejected.
+
+**POST**
+
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/[app_id]/resolutionCenter?v=latest
+
+#### [Example response](examples/reject.md)
+
+
 # fastlane
 
 This documentation is part of the [fastlane](https://fastlane.tools) toolchain. 
