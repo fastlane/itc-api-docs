@@ -41,11 +41,15 @@ All requests (except for the login action) require you to pass cookies. If you'r
 
 Download the pre-filled [PAW file](https://github.com/fastlane/itc-api-docs/blob/master/assets/iTunesConnectAPI.zip?raw=1) and open it with [Paw](https://luckymarmot.com/paw).
 
-Next, you can enter your iTunes Connect credentials in the `Default Domain` settings: ![assets/LoginInformation.png](assets/LoginInformation.png)
+Next, you can enter your iTunes Connect credentials in the `Default Domain` settings.
 
 **The `app_id` is the ID of your app.** You only need to fill that in, if you want to fetch the metadata for one of your apps.
 
 Switch back to the list of requests on the left side and select `Login`. Click `CMD` + `R` to send the request to login.
+
+# Ruby Wrapper
+
+I'm currently in the process to finish a Ruby client for this API, you can follow the progress [here](https://github.com/fastlane/spaceship/pull/58) :rocket:
 
 # API Docs
 
