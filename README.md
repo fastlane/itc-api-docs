@@ -47,9 +47,9 @@ Next, you can enter your iTunes Connect credentials in the `Default Domain` sett
 
 Switch back to the list of requests on the left side and select `Login`. Click `CMD` + `R` to send the request to login.
 
-# Ruby Wrapper
+# Ruby Wrapper for iTunes Connect
 
-I'm currently in the process to finish a Ruby client for this API, you can follow the progress [here](https://github.com/fastlane/spaceship/pull/58) :rocket:
+Part of `fastlane`: [spaceship](https://github.com/fastlane/spaceship/pull/58) is a nice Ruby wrapper that takes care of all the heavy lifting for you :rocket: Check out the available methods [here](https://github.com/fastlane/spaceship/blob/master/docs/iTunesConnect.md).
 
 # API Docs
 
@@ -289,10 +289,11 @@ Receive the app review notes with the reason why your app version got rejected.
 
 #### [Example response](examples/reject.md)
 
-
 # fastlane
 
 This documentation is part of the [fastlane](https://fastlane.tools) toolchain. 
+
+Checkout [spaceship](https://github.com/fastlane/spaceship) for a Ruby wrapper around the iTunes Connect API.
 
 ##### [Like what we're doing? Be the first to know about updates and new fastlane tools](https://tinyletter.com/krausefx)
 
