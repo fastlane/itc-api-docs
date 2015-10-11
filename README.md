@@ -267,7 +267,7 @@ Submit a new version for Review:
 
 **POST**
 
-    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/[app_id]/version/submit/complete
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/[app_id]/details/submit/summary
 
 [See example POST Request](examples/submit_request.md)
     
@@ -279,7 +279,8 @@ Reject an app that is waiting for review.
 
 **POST**
 
-    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/version/reject/[app_id]
+ 
+	https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/[app_id]/versions/[version_id]/reject
 
 The response only contains the general app information - no additional information.
 
