@@ -302,6 +302,9 @@ Checkout [spaceship](https://github.com/fastlane/spaceship) for a Ruby wrapper a
 
 ##### [Like what we're doing? Be the first to know about updates and new fastlane tools](https://tinyletter.com/krausefx)
 
+# Code of Conduct
+Help us keep `fastlane` open and inclusive. Please read and follow our [Code of Conduct](https://github.com/fastlane/code-of-conduct).
+
 # Thanks
 
 Special thanks to [this GitHub Issue](https://github.com/kovpas/itc.cli/issues/38) in particular [@spidfire](https://github.com/spidfire) and [Christian Beer](https://twitter.com/christian_beer).
