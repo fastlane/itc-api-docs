@@ -2,7 +2,7 @@
 
 # List Apps
 
-    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/manageyourapps/summary
+    https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/apps/manageyourapps/summary/v2
 
 ```json
 {
