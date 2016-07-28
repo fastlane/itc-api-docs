@@ -238,7 +238,7 @@ Add a new external beta tester for Apple TestFlight
 
 **Available parameters**
 
-Provide the following JSON data in your *POST* reqest:
+Provide the following JSON data in your *POST* request:
 
 ```json
 {
