@@ -298,7 +298,7 @@ Receive the app review notes with the reason why your app version got rejected.
 
 This documentation is part of the [fastlane](https://fastlane.tools) toolchain. 
 
-Checkout [spaceship](https://github.com/fastlane/spaceship) for a Ruby wrapper around the iTunes Connect API.
+Checkout [spaceship](https://github.com/fastlane/fastlane/tree/master/spaceship) for a Ruby wrapper around the iTunes Connect API.
 
 ##### [Like what we're doing? Be the first to know about updates and new fastlane tools](https://tinyletter.com/krausefx)
 
