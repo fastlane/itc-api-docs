@@ -54,7 +54,7 @@ Switch back to the list of requests on the left side and select `Login`. Click `
 
 # Ruby Wrapper for iTunes Connect
 
-Part of `fastlane`: [spaceship](https://github.com/fastlane/spaceship/pull/58) is a nice Ruby wrapper that takes care of all the heavy lifting for you :rocket: Check out the available methods [here](https://github.com/fastlane/spaceship/blob/master/docs/iTunesConnect.md).
+Part of `fastlane`: [spaceship](https://github.com/fastlane/fastlane/tree/master/spaceship) is a nice Ruby wrapper that takes care of all the heavy lifting for you :rocket: Check out the available methods [here](https://github.com/fastlane/fastlane/blob/master/spaceship/docs/iTunesConnect.md).
 
 # API Docs
 
